@@ -1,0 +1,179 @@
+body {
+    background-color: black;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    height: 56px;
+    margin-top: 20px;
+}
+
+.header h1 {
+   color: white;
+   font-size: 45px; 
+}
+
+.header ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: skyblue;
+}
+
+.content {
+    display: grid;
+    place-items: center;
+    justify-items: center;
+    text-align: center;
+    width: 850px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.content img {
+    display: grid;
+    place-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.bot_presentacion {
+    color: white;
+}
+
+.bot_presentacion h1 p {
+    justify-content: center;
+    justify-items: center;
+}
+
+.lluvia-imagen {
+    position: absolute;
+    width: 30px; /* Tamaño deseado para las imágenes pequeñas */
+    height: auto;
+    pointer-events: none; /* Evitar que las imágenes afecten a otros eventos del ratón */
+    animation: lluviaAnimacion linear infinite;
+}
+
+@keyframes lluviaAnimacion {
+    to {
+      transform: translateY(100vh); /* Mover las imágenes hacia abajo */
+    }
+}
+
+.boton_invitar {
+    padding: 10px 20px;
+    background-color: skyblue; /* Color naranja del logotipo */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif; /* Fuente del logotipo */
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.table {
+    width: 850px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.encabezado_asistencia {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 80px;
+}
+
+.adilia {
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    float: left;
+    margin-left: 150px;
+}
+
+.erick {
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    float: left;
+    margin-left: 150px;
+}
+
+.presentacion_adilia {
+    margin-left: 50px;
+}
+
+.presentacion_erick {
+    margin-left: 50px;
+}
+
+.img_adilia img {
+    width: 250px;
+    height: 150px;
+    border-radius: 10%;
+}
+
+.img_erick img {
+    width: 250px;
+    height: 150px;
+    border-radius: 10%;
+}
+
+.presentacion_adilia p {
+    margin-right: 300px;
+}
+
+.presentacion_erick p {
+    margin-right: 300px;
+}
+
+.comandos {
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    float: left;
+    margin-left: 150px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.comandos p {
+    margin-left: 100px;
+}
+
+.illojuan {
+    place-items: center;
+    justify-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.illojuan img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10%;
+    display: grid;
+    place-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 50%;
+    max-height: 50%;
+}  

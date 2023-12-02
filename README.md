@@ -14,4 +14,4 @@
 
 #### para usar el bot, deben cambiar el token por cuestiones de seguridad de discord, solo cambien el token de la linea 312 y va a funcionar correctamente
 
-#### token: MTE2NTQ1MjMwNDgyNTIwNDkwOA.Ghupc2.A4gmDL3IDcyUGH9JUv0ginmK7jp86awNYeTOok
+#### token: "MTE2NTQ1MjMwNDgyNTIwNDkwOA.GJoM56.2CmHS0xEhZYYGFt7BbwTxxLTtxTH3beBcYUgo8"

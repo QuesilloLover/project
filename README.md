@@ -11,3 +11,7 @@
 #### cabe destacar que en este proyecto aplicamos todos los conocimientos adquiridos durante el transcuro del curso, flask, bootstrap, sqlite3, javascript, y para trabajar como equipo mi compañera y yo lo hicimos mediante un control de versiones con git y nuestro repositorio en github
 
 #### Esto fue CS50_BOT
+
+#### para usar el bot, deben cambiar el token por cuestiones de seguridad de discord, solo cambien el token de la linea 312 y va a funcionar correctamente
+
+#### token: MTE2NTQ1MjMwNDgyNTIwNDkwOA.Ghupc2.A4gmDL3IDcyUGH9JUv0ginmK7jp86awNYeTOok
